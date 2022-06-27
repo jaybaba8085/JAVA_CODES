@@ -3,9 +3,11 @@ public class Main
 {  
     public static void main(String args[])
     { 
-        int n = 5; 
-        int i;
-        for (i=1; i<=n; i++) 
+        Scanner sc = new Scanner(System.in);
+         System.out.print("Enter A Number :");
+        int n = sc.nextInt();
+       
+        for (int i=1; i<=n; i++) 
         {   
                
               for (int j=0; j<=(n-i); j++ )
