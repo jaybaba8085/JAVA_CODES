@@ -43,7 +43,7 @@ public class Main
 		                    }
 		                    right--;
 		                    
-		                    if(top > bottom && left > right) break;
+		                    if(top > bottom || left > right) break;
 		                    
 		                  //  System.out.println("Top : "+top +" "+"Bottom : " + bottom);
 		       
